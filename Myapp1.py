@@ -25,3 +25,5 @@ import pandas as pd
 
 dt=pd.read_csv('./data/iris.csv')
 st.write(dt.head(10))
+
+st.button("show bar graph")
