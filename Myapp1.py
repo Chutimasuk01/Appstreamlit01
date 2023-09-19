@@ -77,7 +77,8 @@ if st.button("ทำนายผล"):
       #st.image("./pic/iris2.jpg")
       st.header("Versicolor")
    else:
-      st.image("./pic/iris3.jpg")  
+      #st.image("./pic/iris3.jpg")  
+      st.header("Verginiga")
    st.button("ไม่ทำนาย")
 else:
    st.button("ไม่ทำนาย")
