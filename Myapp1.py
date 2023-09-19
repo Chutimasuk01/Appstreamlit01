@@ -20,3 +20,8 @@ html1 = """
 """
 st.markdown(html1,unsafe_allow_html=True)
 st.markdown("")
+
+import pandas as pd
+
+dt=pd.read_csv('./data/iris.csv')
+st.write(da.head(10))
