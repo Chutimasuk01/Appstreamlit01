@@ -13,7 +13,7 @@ with col1:
 with col2:
     st.image('./pic/iris.jpg')
 
-html_1 = """
+html_1="""
 <div style="background-color:#73C6B6 ;padding:15px;border-radius:15px 15px 15px 15px;border-style:'solid';border-color:black">
 <center><h5>สถิติข้อมูลดอกไม้</h5></center>
 </div>
@@ -24,4 +24,4 @@ st.markdown("")
 import pandas as pd
 
 dt=pd.read_csv('./data/iris.csv')
-st.write(da.head(10))
+st.write(dt.head(10))
